@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony's Portfolio: Home</title>
+    <!--CSS Links-->
+    <link rel="stylesheet" href="./resources/css/styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/cfa06a486b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Header Section-->
+    <nav>
+        <h2 id="logo">Anthony Aleknewicus</h2>
+        <ul class="navigation-items">
+            <li class="navigation-item">
+                <a href="#about-me">About Me</a>
+            </li>
+            <li class="navigation-item">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="navigation-item">
+                <a href="#skills">Skills</a>
+            </li>
+            <li class="navigation-item">
+                <a href="contact.html" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Main Section-->
+    <main>
+        <!--About Me Section-->
+        <section id="about-me">
+            <div class="about-me-container">
+                <div class="about-me-text-container">
+                    <h2 class="titles">About Me</h2>
+                    <p>
+                        Anthony is a motivated and dedicated junior front-end web developer 
+                        with a passion for creating beautiful and functional websites. 
+                        He is on a continuous journey studying web development and has gained 
+                        hands-on experience through several projects. With a strong foundation 
+                        in HTML, CSS, and JavaScript, Anthony is able to design and develop 
+                        responsive and user-friendly websites.
+                    </p>
+                    <p>
+                        He is constantly learning and staying up-to-date with the latest web 
+                        development trends and technologies. Anthony is a team player who enjoys 
+                        collaborating with others and is always looking for ways to improve his 
+                        skills and knowledge. He is excited to contribute his skills and creativity 
+                        to a dynamic and innovative web development team.
+                    </p>
+                    <p id="code-seconds">
+                        Fun fact! I have been programming for 
+                        <span id="time-container"></span>
+                         seconds!
+                    </p>
+                </div>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipground.com%2Fimages%2Flogo-javascript-clipart-1.jpg&f=1&nofb=1&ipt=6a7aa26a2b5c83a2a2db6bb3a2b3b11c64a15f9873d7ef37fd7384c2bd465583&ipo=images" alt="A photo of Anthony" class="portrait">
+            </div>
+        </section>
+
+        <!--Projects Section-->
+        <section id="projects">
+            <h2 class="titles">Projects</h2>
+            <details class="project">
+                <summary class="project-title" id="to-do">
+                    <h3>To-Do List</h3>                    
+                </summary> 
+                <a href="./to-do.html" target="_blank">
+                    <img src="./resources/images/To-Do List.png" alt="">
+                </a>
+            </details>
+            <details class="project">
+                <summary class="project-title" id="calculator">
+                    <h3>Calculator</h3>                    
+                </summary> 
+            </details>
+            <details class="project">
+                <summary class="project-title" id="quotes">
+                    <h3>Quote Generator</h3>                    
+                </summary> 
+                <a href="./quotes.html" target="_blank">
+                    <img src="./resources/images/Quote Generator.png" alt="">
+                </a>
+            </details>
+        </section>
+
+        <!--Skills Section-->
+        <section id="skills">
+            <h2 class="titles">Skills</h2>
+            <div id="skills-container">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-github"></i>
+
+            </div>
+
+        </section>        
+    </main>
+
+    <!--Footer Section-->
+    <footer>
+        <h3>Made With <span id="heart">♥</span> in Las Vegas, Nevada</h3>
+    </footer>
+
+    <script src="./resources/js/main.js"></script>
+</body>
+</html>
