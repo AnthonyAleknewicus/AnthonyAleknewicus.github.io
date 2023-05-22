@@ -172,11 +172,6 @@ summary {
     margin-top: 50px;
 }
 
-.clock {
-    float: right;
-    margin: auto auto auto 500px;
-}
-
 #skills-container > * {
     font-size: 2em;
     width: 2em;

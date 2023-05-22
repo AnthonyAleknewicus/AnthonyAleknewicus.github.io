@@ -1,0 +1,262 @@
+* {   
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: block;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: #333856;
+    background-color: #f7f5e6;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Header CSS */
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 2px solid #52658f;
+}
+
+#logo {
+    margin: 0 0 0 50px;
+}
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0 0 0 25px;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: 50px;   
+    flex-shrink: 3; 
+}
+
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    flex-wrap: wrap;
+}
+
+.navigation-item {
+    margin: 8px;
+}
+
+li {
+    display: list-item;
+}
+
+li a {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #333856;
+}
+
+li a:hover {
+    background-color: #333856;
+    color: #e8e8e8;
+    font-weight: bold;
+    padding: 2px 10px;
+    border-radius: 5px;
+    transition: .33s;
+}
+
+/* Main Section CSS */
+
+h1 {
+    font-family: 'BotW Sheikah', 'Luckiest Guy', cursive;
+    margin-top: 20px;
+    color: #f5f5f5;
+    font-size: 4rem;
+    letter-spacing: .4rem;
+    text-shadow: 3px 3px rgb(89, 255, 202);
+    -webkit-text-stroke: .25px hsla(161, 100%, 25%, 0.6);
+}
+
+#output {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    max-width: 1000px;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 120px;
+    background-color: #fdffe0;    
+    border: 2px solid #ffd372;
+    overflow: hidden;
+}
+
+#output h2 {
+    color: rgb(14, 31, 120);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 5rem;
+}
+
+#clear-button {
+    display: inline-flex;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+    background-color: #fdffe0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #clear-button p {
+    color: rgb(14, 31, 120);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    margin: auto;
+  }
+
+#buttons {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px 0px hsla(161, 100%, 25%, 0.6);   
+    border: solid 4px black; 
+}
+
+button:active {
+    box-shadow: inset 0px 5px 10px 0px hsla(161, 100%, 20%, 0.6);
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button img {
+    width: 75px;
+    height: 75px;  
+}
+
+.numbutton {
+    width: 120px;
+    height: 120px;
+}
+
+.numbutton img {
+    width: 90px;
+    height: 90px;  
+}
+
+.letters {
+    
+    background-color: rgb(89, 255, 202);
+}
+
+.punctuation {
+    background-color: rgb(202, 89, 255);
+}
+
+.numbers {
+    background-color: rgb(255, 202, 89);
+}
+
+/* Footer CSS */
+
+footer {
+    margin-top: 50px;
+    padding: 12px;
+    text-align: center;
+}
+
+#heart {
+    color: #ff0000;
+}
+
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+    #clear-button {
+        position: relative;
+        margin-top: 2px;
+      }
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+      font-size: 4rem;
+    }
+  
+    #output {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+    }
+  
+    #buttons {
+      max-width: 400px;
+      margin-bottom: 30px;
+    }
+  
+    button {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .button img {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .numbutton {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .numbutton img {
+      width: 80px;
+      height: 80px;
+    }
+
+  }
