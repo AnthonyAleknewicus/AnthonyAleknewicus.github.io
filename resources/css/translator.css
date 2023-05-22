@@ -229,9 +229,14 @@ footer {
   
     #output {
       width: 90%;
+      height: 6%;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 30px;
+    }
+
+    #output h2 {
+        font-size: 1.5rem;
     }
   
     #buttons {
