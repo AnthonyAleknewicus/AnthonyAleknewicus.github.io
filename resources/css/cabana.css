@@ -1,0 +1,124 @@
+/*Universal CSS*/
+
+body {
+    background-color: #E3D822;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+h2 {
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/*Header Section*/
+
+.header {
+    padding-top: 1rem;
+    background-color: #F01880;
+    color: #E3D822;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+}
+
+.header li {
+    color: #E3D822;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+.header li:hover {
+    color: #1C8FED;
+}
+
+/*Main CSS*/
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-image: url('../images/cabana images/matthew-henry-T-G9PVLOfOY-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro h1 {
+    color: #E3D822;
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(31, 144, 237, .5);
+    text-align: center;
+}
+
+
+
+.summary, .testimonial, .photos, .meetup {
+    margin: 4em auto;
+}
+
+.summary {
+    padding: 0 1rem; 
+}
+
+.summary h2 {
+    color: blueviolet;
+}
+
+.summary p {
+    color: lightcyan;
+    font-size: 1.25em;
+}
+
+.photos img {
+    width: 30%;
+    margin: 1.5%;
+    height: 16em;
+}
+
+.testimonial {
+    background-color: #F01880;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: #19FA55;
+}
+
+.photos2 img {
+    width: 30%;    
+    margin: 1.5%;
+}
+
+
+@media only screen and (max-width: 1048px) {
+.photos img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial {
+    height: 30rem;
+}
+
+}
