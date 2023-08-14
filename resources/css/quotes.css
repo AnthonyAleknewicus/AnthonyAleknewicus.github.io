@@ -136,14 +136,10 @@ button {
     color: #fff;
 }
 
- button span {
-    position: absolute;
-    right: 40px;
-    bottom: 5px;
-    top: 2px;
-    width: 72%;
-    height: 100%;
+ button p {
     font-size: 22px;
+    text-align: center;
+    margin: auto;
 }
 
 button:active {
