@@ -168,8 +168,8 @@ summary {
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
-#yelpCamp {
-    margin-top: 50px;
+.proj-title {
+    margin-bottom: 50px;
 }
 
 #skills-container > * {
